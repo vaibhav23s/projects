@@ -1,0 +1,159 @@
+* {
+  background-color: black;
+  box-sizing: border-box;
+}
+
+/* heder start from here ok */
+
+header {
+  width: 100%;
+  height: 190px;
+}
+
+header > div {
+  height: 120px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.one {
+  width: 144px;
+  height: 59px;
+
+  margin-top: 54px;
+  margin-left: 100px;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 78px;
+}
+li {
+  color: aliceblue;
+  gap: 43px;
+  margin-left: 50px;
+}
+.top {
+  width: 550px;
+}
+.li-collor {
+  font-family: Manrope;
+  font-size: 20px;
+  color: #00ff55;
+}
+
+.midel-in {
+  width: 171px;
+  height: 52px;
+
+  margin-top: 58px;
+}
+
+.midel-in > img {
+  gap: 10px;
+  margin-top: 20px;
+}
+.section {
+  width: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-sizing: border-box;
+}
+.section > div {
+  width: 241px;
+  height: 46px;
+
+  margin-top: 63px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: minmax(2, 1fr);
+}
+.section > div > div {
+  width: 149px;
+  height: 42px;
+
+  border-radius: 27px;
+}
+.section-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 27px;
+}
+.section-one > img {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+h4 {
+  color: #00ff55;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.section {
+  width: 900px;
+  height: 51px;
+}
+.header-section {
+  width: 84%;
+  height: 50px;
+
+  margin-left: 3%;
+  margin-top: 6px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+.header-section > div {
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-size: 20px;
+}
+.header-section > div > img {
+  height: 46px;
+}
+.header-section-one {
+  width: 200px;
+}
+.header-section-six {
+  width: 80px;
+}
+/* heder ended heare ok*/
+.triger {
+  width: 100%;
+  height: 600px;
+  border: solid blue 2px;
+}
+.triger > .amp {
+  width: 300px;
+  height: 150px;
+  border: 2px solid green;
+  display: grid;
+  margin-left: 35%;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.triger > .amp > img {
+  width: 100%;
+}
+.sng {
+  width: 300px;
+  height: 40px;
+  border: 2px solid red;
+  margin-left: 400px;
+  margin-top: 15px;
+}
+.sng > img {
+  width: 100%;
+}
+.a {
+  color: #00ff55;
+  margin-left: 80px;
+  font-size: 40px;
+}
+.b {
+  color: white;
+  margin-top: -20px;
+  font-size: 50px;
+}
