@@ -1,6 +1,9 @@
 * {
   background-color: black;
   box-sizing: border-box;
+  background-image: url(back.png);
+  background-repeat: no-repeat;
+  z-index: 10px;
 }
 
 /* heder start from here ok */
@@ -119,41 +122,76 @@ h4 {
   width: 80px;
 }
 /* heder ended heare ok*/
+/* section start from heare  */
 .triger {
   width: 100%;
   height: 600px;
   border: solid blue 2px;
 }
-.triger > .amp {
+
+.close{
   width: 300px;
   height: 150px;
-  border: 2px solid green;
-  display: grid;
-  margin-left: 35%;
-  margin-top: 100px;
+  border: 2px solid red;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 0%;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  box-sizing: border-box;
+ 
+
+
 }
-.triger > .amp > img {
-  width: 100%;
+.a{
+   color: #00ff55;
+   margin: 0%;
+   margin-top: 1px;
+
 }
-.sng {
-  width: 300px;
+.b{
+  color: white;
+  margin: 0%;
+}
+.open{
+  width:350px;
   height: 40px;
   border: 2px solid red;
-  margin-left: 400px;
-  margin-top: 15px;
+  margin: auto;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
-.sng > img {
-  width: 100%;
+.open>div{
+  border: 2px solid white;
 }
-.a {
-  color: #00ff55;
-  margin-left: 80px;
-  font-size: 40px;
-}
-.b {
+.open-two{
   color: white;
-  margin-top: -20px;
-  font-size: 50px;
+
+}
+.open-four{
+  color: white;
+}
+.open-three{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.open-three>img{
+  object-fit: cover;
+  width: 40%;
+  margin-top: 15px;
+  margin-left:6px ;
+
+
+
+ 
+}
+.sp{
+  text-align: center;
+}
+.si{
+  margin-left: 20-px;
 }
